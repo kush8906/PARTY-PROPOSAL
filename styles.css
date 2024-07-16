@@ -1,0 +1,67 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f5f5f5;
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    background-color: #ff6f61;
+    color: white;
+    padding: 20px;
+    text-align: center;
+}
+
+.section {
+    padding: 50px;
+    text-align: center;
+}
+
+.proposal-message {
+    max-width: 600px;
+    margin: 0 auto;
+}
+
+.buttons {
+    margin: 20px 0;
+}
+
+button {
+    padding: 10px 20px;
+    margin: 10px;
+    font-size: 16px;
+    cursor: pointer;
+    border: none;
+    border-radius: 5px;
+    color: white;
+    transition: all 0.2s ease;
+}
+
+button:hover {
+    opacity: 0.8;
+}
+
+button:first-child {
+    background-color: #4CAF50;
+}
+
+button:last-child {
+    background-color: #f44336;
+    position: relative;
+}
+
+.response {
+    margin-top: 20px;
+    font-size: 24px;
+    font-weight: bold;
+}
+
+footer {
+    background-color: #333;
+    color: white;
+    text-align: center;
+    padding: 10px;
+    position: fixed;
+    width: 100%;
+    bottom: 0;
+}
